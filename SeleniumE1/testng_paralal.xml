@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" >
+  <parameter name="broswer" value="firefox"></parameter>
+    <classes>
+      <class name="advanceSeleniumE1.BaseClass"/>
+      <class name="advanceSeleniumE1.TC_DWS_001"/>
+      <class name="advanceSeleniumE1.TC_DWT_002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
